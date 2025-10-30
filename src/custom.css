@@ -1,0 +1,71 @@
+.hercules-navbar {
+  background: linear-gradient(90deg, #b8860b, #ffcc00);
+}
+
+.hercules-bg {
+  background: linear-gradient(90deg, #b8860b, #ffcc00);
+}
+
+.hercules-title {
+  font-family: 'Cinzel', serif;
+  font-size: 2.5rem; /* Change this as needed */
+  font-weight: bold;
+}
+
+.hercules-default-color {
+  color: white;
+}
+
+
+/* Banner section */
+
+/* Flexbox layout for the image row */
+.image-row {
+  display: flex;
+  justify-content: center; /* Center the images */
+  gap: 0; /* No gap between images */
+  flex-wrap: nowrap; /* Keep the images in a single row */
+  margin-left: -10px; /* Remove the default Bootstrap column spacing */
+  margin-right: -10px; /* Remove the default Bootstrap column spacing */
+}
+
+/* Container for each image */
+.banner-image {
+  position: relative;
+  overflow: hidden; /* Hide any overflowing content */
+  margin-right: -20px; /* Negative margin to make images overlap */
+  height: 500px; /* Set the height of the images */
+  width: 100%; /* Set the width of the container */
+}
+
+/* Set up the images to fill their container */
+.banner-image img {
+  width: 100%; /* Makes the image take up the full container width */
+  height: 100%;
+  object-fit: cover; /* Ensures the image fully covers the container */
+  transition: transform 0.3s ease-in-out; /* Smooth zoom transition */
+  border-radius: 8px; /* Optional: Rounded corners */
+}
+
+/* On hover, zoom the image and create overlap with the adjacent image on the right */
+.banner-image:hover img {
+  transform: scale(1.2); /* Zoom effect on hover */
+  z-index: 10; /* Bring the hovered image to the front */
+}
+
+/* Optional: Add box-shadow effect on hover */
+.banner-image:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+/* end banner section */
+
+/* Hide the carousel controls when there's only one item */
+.carousel.single-item .carousel-control-prev,
+.carousel.single-item .carousel-control-next {
+  display: none;
+}
+
+/* Optional: Disable pointer events on the carousel when it's a single item */
+.carousel.single-item {
+  pointer-events: none;
+}
