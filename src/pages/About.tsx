@@ -13,21 +13,21 @@ function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            About Hercules
+            About BOSS
           </motion.h1>
           <p
             className="lead text-muted text-light-emphasis mx-auto"
             style={{ maxWidth: "700px" }}
           >
             Building a future where time is your most valuable resource — and
-            Hercules helps you reclaim it.
+            BOSS helps you reclaim it.
           </p>
         </div>
       </section>*/}
       <Section
-        heading="About Hercules"
+        heading="About Boss"
         paragraphs={[
-          "Building a future where time is your most valuable resource — and Hercules helps you reclaim it."
+          "Building a future where time is your most valuable resource — and Boss helps you reclaim it."
         ]}
       />
 
@@ -52,7 +52,7 @@ function About() {
             >
               <h2 className="fw-bold mb-3">Our Mission</h2>
               <p className="text-muted">
-                Hercules was founded on a simple belief: that technology should
+                Boss was founded on a simple belief: that technology should
                 empower people, not overwhelm them. We help teams delegate
                 tasks, automate processes, and rediscover balance — so they can
                 focus on what truly matters.

@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     <footer className="bg-dark text-white py-4">
       <div className="container">
         <div className="text-center mb-4">
-          <h3>Hercules</h3>
+          <h3>BOSS</h3>
         </div>
         <div className="social-icons mb-4">
           <a href="#" className="text-white mx-2"><FaFacebook /></a>
@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           <a href="#" className="text-white mx-2"><FaInstagram /></a>
         </div>
         <div className="text-center">
-          <p>Copyright 2025 Hercules</p>
+          <p>Copyright 2025 BOSS</p>
         </div>
       </div>
     </footer>

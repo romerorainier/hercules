@@ -7,7 +7,7 @@ function GetStarted() {
       <Section
         heading="Let’s Get Started!"
         paragraphs={[
-          "You’re one step closer to getting your own dedicated assistant. Fill out the form below so we can tailor the perfect experience for you."
+          "You’re one step closer to getting your own dedicated remote talent. Fill out the form below so we can tailor the perfect experience for you."
         ]}
       />
 

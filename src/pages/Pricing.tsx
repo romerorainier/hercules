@@ -22,7 +22,7 @@ function Pricing() {
                   Perfect for solopreneurs who need part-time assistance.
                 </p>
                 <ul className="list-unstyled mb-4">
-                  <li>✅ 1 Dedicated Assistant</li>
+                  <li>✅ 1 Dedicated Remote</li>
                   <li>✅ 20 Hours of Work/Month</li>
                   <li>✅ Email & Scheduling</li>
                 </ul>
@@ -41,7 +41,7 @@ function Pricing() {
                   Great for professionals who want a full-time productivity partner.
                 </p>
                 <ul className="list-unstyled mb-4">
-                  <li>✅ 1 Full-Time Assistant</li>
+                  <li>✅ 1 Full-Time Remote</li>
                   <li>✅ 40 Hours of Work/Month</li>
                   <li>✅ Delegation Coaching</li>
                   <li>✅ Priority Support</li>
@@ -61,7 +61,7 @@ function Pricing() {
                   For teams and executives who need full-scale delegation systems.
                 </p>
                 <ul className="list-unstyled mb-4">
-                  <li>✅ Multiple Assistants</li>
+                  <li>✅ Multiple Remote</li>
                   <li>✅ Advanced Automation</li>
                   <li>✅ Team Delegation Coaching</li>
                   <li>✅ Custom Integrations</li>
