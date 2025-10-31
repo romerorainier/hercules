@@ -9,10 +9,10 @@ const Footer: React.FC = () => {
           <h3>BOSS</h3>
         </div>
         <div className="social-icons mb-4">
-          <a href="#" className="text-white mx-2"><FaFacebook /></a>
-          <a href="#" className="text-white mx-2"><FaYoutube /></a>
-          <a href="#" className="text-white mx-2"><FaTwitter /></a>
-          <a href="#" className="text-white mx-2"><FaInstagram /></a>
+          <a href="#" className="text-white mx-2">{React.createElement(FaFacebook)}</a>
+          <a href="#" className="text-white mx-2">{React.createElement(FaYoutube)}</a>
+          <a href="#" className="text-white mx-2">{React.createElement(FaTwitter)}</a>
+          <a href="#" className="text-white mx-2">{React.createElement(FaInstagram)}</a>
         </div>
         <div className="text-center">
           <p>Copyright 2025 BOSS</p>
