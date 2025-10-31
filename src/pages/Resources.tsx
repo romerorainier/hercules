@@ -7,7 +7,7 @@ function Resources() {
       <Section
         heading="Resources to Help You Grow"
         paragraphs={[
-          "Learn how to delegate effectively, boost productivity, and make the most out of your assistant. Browse our curated guides, articles, and video resources.",
+          "Learn how to delegate effectively, boost productivity, and make the most out of your remote talent. Browse our curated guides, articles, and video resources.",
         ]}
       />
 

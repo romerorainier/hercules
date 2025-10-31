@@ -8,7 +8,7 @@ function Home() {
       <Section
         heading="Doing It All Is Costing You. What If You Didn’t Have To?"
         paragraphs={[
-          "Hire a full-time dedicated assistant and receive world-class delegation coaching.",
+          "Hire a full-time dedicated remote and receive world-class delegation coaching.",
         ]}
         button={<Link to="/getstarted" className="btn btn-dark">
   Get Started

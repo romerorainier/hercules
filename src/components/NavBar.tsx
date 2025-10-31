@@ -2,20 +2,24 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   const items = [
-    { title: "Home", path: "/" },
+    // { title: "Home", path: "/" },
     { title: "About", path: "/about" },
     { title: "How it Works", path: "/how-it-works" },
     { title: "Pricing", path: "/pricing" },
     { title: "Solutions", path: "/solutions" },
     { title: "Resources", path: "/resources" },
     { title: "Get Started", path: "/get-started" },
+    // { title: "Carreers", path: "/get-started" },
   ];
 
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary hercules-navbar">
       <div className="container-fluid">
         <Link className="navbar-brand hercules-title" to="/">
-          Hercules
+          BOSS
+          <div style={{ fontSize: '0.7rem', lineHeight: '1rem', color: '#494949ff' }}>
+            Bayani OffShore Solutions
+          </div>
         </Link>
 
         <button

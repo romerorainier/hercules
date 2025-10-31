@@ -19,7 +19,7 @@ function Solutions() {
                 <h5 className="card-title fw-bold">Productivity Optimization</h5>
                 <p className="card-text">
                   Reclaim your time with workflow automation and professional
-                  assistant support that eliminates repetitive tasks.
+                  remote talent that eliminates repetitive tasks.
                 </p>
                 <a href="#" className="btn btn-outline-dark">
                   Learn More
@@ -50,7 +50,7 @@ function Solutions() {
               <div className="card-body">
                 <h5 className="card-title fw-bold">Dedicated Support</h5>
                 <p className="card-text">
-                  Get 24/7 access to your assistant and dedicated account manager,
+                  Get 24/7 access to your remote talent and dedicated account manager,
                   ensuring all your needs are handled without delay.
                 </p>
                 <a href="#" className="btn btn-outline-dark">
