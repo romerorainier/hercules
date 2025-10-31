@@ -8,7 +8,7 @@ function Home() {
       <Section
         heading="Doing It All Is Costing You. What If You Didn’t Have To?"
         paragraphs={[
-          "Hire a full-time dedicated remote and receive world-class delegation coaching.",
+          "Hire a full-time dedicated remote talent and receive world-class delegation coaching.",
         ]}
         button={<Link to="/getstarted" className="btn btn-dark">
   Get Started
@@ -30,7 +30,7 @@ function Home() {
       <Section
         heading="A world where delegation isn’t an afterthought but the bedrock of a balanced, fulfilling life."
         paragraphs={[
-          "Whether you're a novice or a pro, Hercules's delegation system helps you level up.",
+          "Whether you're a novice or a pro, Boss's delegation system helps you level up.",
         ]}
       />
     </div>
