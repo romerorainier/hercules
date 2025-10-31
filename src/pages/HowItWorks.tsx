@@ -5,17 +5,17 @@ function HowItWorks() {
   const steps = [
     {
       title: "1. Set Up Your Account",
-      desc: "Create your Hercules account in just a few clicks. Customize your workspace and get ready to manage everything in one place.",
+      desc: "Create your Boss account in just a few clicks. Customize your workspace and get ready to manage everything in one place.",
       img: "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=800&q=80",
     },
     {
       title: "2. Configure Your Settings",
-      desc: "Easily set preferences and connect your tools. Hercules integrates seamlessly with the platforms your team already uses.",
+      desc: "Easily set preferences and connect your tools. Boss integrates seamlessly with the platforms your team already uses.",
       img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80",
     },
     {
       title: "3. Launch and Monitor",
-      desc: "Start using Hercules to streamline your workflow. Track progress, manage time, and improve productivity effortlessly.",
+      desc: "Start using Boss to streamline your workflow. Track progress, manage time, and improve productivity effortlessly.",
       img: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
     },
   ];
@@ -32,14 +32,14 @@ function HowItWorks() {
         <div className="container">
           <h1 className="fw-bold mb-3">How It Works</h1>
           <p className="text-muted fs-5 mb-0">
-            Discover how Hercules simplifies your workflow from setup to success.
+            Discover how Boss simplifies your workflow from setup to success.
           </p>
         </div>
       </motion.section>*/}
       <Section
         heading="How It Works"
         paragraphs={[
-          "Discover how Hercules simplifies your workflow from setup to success."
+          "Discover how Boss simplifies your workflow from setup to success."
         ]}
       />
 
@@ -82,9 +82,9 @@ function HowItWorks() {
         transition={{ duration: 0.8 }}
       >
         <div className="container">
-          <h2 className="fw-bold mb-3">Ready to Experience Hercules?</h2>
+          <h2 className="fw-bold mb-3">Ready to Experience Boss?</h2>
           <p className="text-muted mb-4">
-            Join thousands of users boosting productivity with Hercules today.
+            Join thousands of users boosting productivity with Boss today.
           </p>
           <a
             href="/getstarted"

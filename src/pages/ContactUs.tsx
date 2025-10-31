@@ -106,8 +106,8 @@ const ContactSupport = () => {
           <h5 className="fw-bold mb-2">Need immediate help?</h5>
           <p className="text-muted mb-1">
             Email us at{" "}
-            <a href="mailto:support@hercules.com" className="text-dark fw-semibold">
-              support@hercules.com
+            <a href="mailto:support@boss.com" className="text-dark fw-semibold">
+              support@boss.com
             </a>
           </p>
           <p className="text-muted">
